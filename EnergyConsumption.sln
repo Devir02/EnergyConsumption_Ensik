@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyConsumption.Data", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyConsumption.Repository", "EnergyConsumption.Repository\EnergyConsumption.Repository.csproj", "{BCFCD386-B7FB-4D7D-BEAD-33DCD6DAF795}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyConsumption_Test", "EnergyConsumption_Test\EnergyConsumption_Test.csproj", "{3C86C767-75D4-46FD-B381-028D23155946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerManager", "LoggerManager\LoggerManager.csproj", "{E40C6D3A-C139-411C-B5BC-FC4562C32774}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerManager", "LoggerManager\LoggerManager.csproj", "{E40C6D3A-C139-411C-B5BC-FC4562C32774}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyConsumptionUnitTest", "EnergyConsumptionUnitTest\EnergyConsumptionUnitTest.csproj", "{CEDE817A-6B14-41EA-ACE6-B7CAD7B53B8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{BCFCD386-B7FB-4D7D-BEAD-33DCD6DAF795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFCD386-B7FB-4D7D-BEAD-33DCD6DAF795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFCD386-B7FB-4D7D-BEAD-33DCD6DAF795}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C86C767-75D4-46FD-B381-028D23155946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C86C767-75D4-46FD-B381-028D23155946}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C86C767-75D4-46FD-B381-028D23155946}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C86C767-75D4-46FD-B381-028D23155946}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E40C6D3A-C139-411C-B5BC-FC4562C32774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E40C6D3A-C139-411C-B5BC-FC4562C32774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40C6D3A-C139-411C-B5BC-FC4562C32774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40C6D3A-C139-411C-B5BC-FC4562C32774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDE817A-6B14-41EA-ACE6-B7CAD7B53B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDE817A-6B14-41EA-ACE6-B7CAD7B53B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDE817A-6B14-41EA-ACE6-B7CAD7B53B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDE817A-6B14-41EA-ACE6-B7CAD7B53B8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

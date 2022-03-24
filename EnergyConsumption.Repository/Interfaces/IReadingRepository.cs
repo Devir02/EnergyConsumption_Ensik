@@ -13,5 +13,6 @@ namespace EnergyConsumption.Repository.Interfaces
     public interface IReadingRepository : IGenericRepository<MeterReading>
     {
         ReadingResult ProcessMeterReadings(StreamReader stream, IEnumerable<Account> accounts);
+       
     }
 }
