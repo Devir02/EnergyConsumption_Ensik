@@ -1,0 +1,28 @@
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
+using EnergyConsumption.Repository;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace EnergyConsumption.Data
+{
+    public partial class EnergyConsumptionContext : DbContext
+    {
+        public EnergyConsumptionContext()
+        {
+        }
+
+        public EnergyConsumptionContext(DbContextOptions<EnergyConsumptionContext> options)
+            : base(options)
+        {
+        }
+
+        public virtual DbSet<Account> Account { get; set; }
+        public virtual DbSet<MeterReading> MeterReading { get; set; }
+
+   
+    }
+}
